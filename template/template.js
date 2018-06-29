@@ -13,14 +13,14 @@ let result = `
         .preview{
             background-color: #4bb8e2;
         }
-        /* 给鸟儿腾出位置 */
+        /* 好的画家在落笔前，要先在心中构想鸟儿的位置 */
         .wrapper{
             width: 100%;
             height: 200px;
             position: relative;
             overflow: hidden;
         }
-        /* 初始化鸟儿 */
+        /* 酝酿鸟儿 */
         .bird {
             width: 100px;
             height: 100px;
