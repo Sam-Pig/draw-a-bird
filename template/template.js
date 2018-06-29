@@ -1,4 +1,5 @@
 let result = `
+        /* 你好，我是 Sam Pig，今天天气不错哦！ */
         /* 一起用CSS来画一只鸟吧！ */
         /* 先做一些预处理 */
         html{
@@ -8,7 +9,7 @@ let result = `
         .code{
             border: 1px solid #fff;
         }
-        /* 打开预览窗口 */
+        /* 给我们的画布上色 */
         .preview{
             background-color: #4bb8e2;
         }
@@ -29,7 +30,9 @@ let result = `
             transform: translate(-50%, -50%);
             transform: scale(1.8);
         }
-        /* 开始画了！ */
+
+        /* ----------开始画了！ -------------*/
+
         /* 先画个大嘴巴 */
         .bird__head {
             position: relative;
@@ -119,7 +122,7 @@ let result = `
             height: 5px;
             transform: rotate(-70deg);
         }
-        /* 好了，我们的鸟画完了！ */
+        /* 好了，我们的鸟画完了，希望你喜欢！ */
 
 `
 let duration = 50;
